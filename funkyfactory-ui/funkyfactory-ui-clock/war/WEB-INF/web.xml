@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>ClockServlet</servlet-name>
+    <servlet-class>org.qualipso.funkyfactory.ui.clock.server.ClockServletImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ClockServlet</servlet-name>
+    <url-pattern>/clock/ClockServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Funkyfactory_ui_clock.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

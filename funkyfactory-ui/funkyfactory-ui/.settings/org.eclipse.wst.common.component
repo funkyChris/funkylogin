@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="funkyfactory-ui">
+        <wb-resource deploy-path="/" source-path="/src/main/application"/>
+        <dependent-module deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/gwt/gwt-servlet/1.7.0/gwt-servlet-1.7.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/funkyfactory-ui-clock/funkyfactory-ui-clock">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/funkyfactory-ui-login/funkyfactory-ui-login">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
